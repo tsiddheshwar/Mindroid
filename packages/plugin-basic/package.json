@@ -1,6 +1,6 @@
 {
   "name": "@mindroid/plugin-basic",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Mindroid plugin set for core Android capabilities",
   "keywords": [
     "mindroid",
@@ -34,6 +34,6 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@mindroid/core": "0.1.0"
+    "@mindroid/core": "0.2.0"
   }
 }

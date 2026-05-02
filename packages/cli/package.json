@@ -1,6 +1,6 @@
 {
   "name": "mindroid",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Mindroid CLI for creating and building JS-first Android apps",
   "keywords": [
     "mindroid",
@@ -37,7 +37,7 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@mindroid/icon-builder": "0.1.0"
+    "@mindroid/icon-builder": "0.2.0"
   },
   "devDependencies": {
     "tsx": "^4.19.4",

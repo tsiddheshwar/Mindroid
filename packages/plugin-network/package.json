@@ -1,6 +1,6 @@
 {
   "name": "@mindroid/plugin-network",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Mindroid plugin for Android network and Wi-Fi state",
   "keywords": [
     "mindroid",
@@ -33,6 +33,6 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@mindroid/core": "0.1.0"
+    "@mindroid/core": "0.2.0"
   }
 }

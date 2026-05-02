@@ -1,6 +1,6 @@
 {
   "name": "@mindroid/plugin-device-info",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Mindroid plugin providing Android device and OS information",
   "keywords": [
     "mindroid",
@@ -32,6 +32,6 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@mindroid/core": "0.1.0"
+    "@mindroid/core": "0.2.0"
   }
 }
