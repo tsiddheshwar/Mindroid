@@ -1,0 +1,14 @@
+{
+  "name": "@mindroid/example-react",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "echo react example"
+  },
+  "dependencies": {
+    "@mindroid/core": "0.1.0",
+    "@mindroid/plugin-device-info": "0.1.0",
+    "react": "^18.3.1"
+  }
+}

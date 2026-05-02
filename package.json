@@ -1,0 +1,23 @@
+{
+  "name": "mindroid",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Mindroid JS-first Android runtime and plugin ecosystem",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace @mindroid/core && npm run build --workspace @mindroid/icon-builder && npm run build --workspace mindroid && npm run build --workspace @mindroid/plugin-device-info && npm run build --workspace @mindroid/plugin-network && npm run build --workspace @mindroid/plugin-basic && npm run build --workspace @mindroid/example-vanilla && npm run build --workspace @mindroid/example-react && npm run build --workspace @mindroid/example-angular",
+    "clean": "npm run clean --workspaces --if-present",
+    "dev": "npm run dev --workspace mindroid",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "npm test --workspace @mindroid/core && npm test --workspace mindroid",
+    "pack:dry-run": "npm pack --dry-run --workspace @mindroid/core && npm pack --dry-run --workspace @mindroid/icon-builder && npm pack --dry-run --workspace @mindroid/plugin-device-info && npm pack --dry-run --workspace @mindroid/plugin-network && npm pack --dry-run --workspace @mindroid/plugin-basic && npm pack --dry-run --workspace mindroid"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.18",
+    "typescript": "^5.8.3"
+  }
+}

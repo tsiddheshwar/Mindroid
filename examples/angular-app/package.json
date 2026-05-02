@@ -1,0 +1,14 @@
+{
+  "name": "@mindroid/example-angular",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "echo angular example"
+  },
+  "dependencies": {
+    "@angular/core": "^19.2.0",
+    "@mindroid/core": "0.1.0",
+    "@mindroid/plugin-network": "0.1.0"
+  }
+}

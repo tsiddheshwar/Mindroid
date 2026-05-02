@@ -1,0 +1,38 @@
+{
+  "name": "@mindroid/core",
+  "version": "0.1.0",
+  "description": "Mindroid core runtime, bridge and plugin host",
+  "keywords": [
+    "mindroid",
+    "android",
+    "runtime",
+    "bridge"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "if exist dist rmdir /s /q dist",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "vitest": "^3.1.3"
+  }
+}
